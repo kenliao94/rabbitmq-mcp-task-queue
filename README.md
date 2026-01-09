@@ -1,4 +1,4 @@
-# mcp-task-rmq-queue
+# rabbitmq-mcp-task-queue
 
 RabbitMQ-based TaskMessageQueue implementation for the Model Context Protocol (MCP).
 
