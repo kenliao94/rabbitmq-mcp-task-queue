@@ -35,4 +35,4 @@ Repository = "https://github.com/yourusername/mcp-task-rmq-queue"
 Issues = "https://github.com/yourusername/mcp-task-rmq-queue/issues"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src"]
+packages = ["rabbitmq_mcp_task_queue"]

@@ -25,7 +25,7 @@ pip install mcp-task-rmq-queue
 ## Quick Start
 
 ```python
-from mcp_task_rmq_queue import RabbitMQTaskMessageQueue
+from rabbitmq_mcp_task_queue import RabbitMQTaskMessageQueue
 from mcp.server import Server
 
 # Initialize the queue
@@ -59,7 +59,7 @@ Queues are automatically named using the pattern: `mcp:queue:{task_id}`
 ```python
 from mcp.server import Server
 from mcp.server.streamable_http_manager import StreamableHTTPSessionManager
-from mcp_task_rmq_queue import RabbitMQTaskMessageQueue
+from rabbitmq_mcp_task_queue import RabbitMQTaskMessageQueue
 
 server = Server("task-server")
 queue = RabbitMQTaskMessageQueue(rabbitmq_url="amqp://localhost:5672")
