@@ -13,7 +13,7 @@ RabbitMQ-based TaskMessageQueue implementation for the Model Context Protocol (M
 ## Installation
 
 ```bash
-pip install mcp-task-rmq-queue
+pip install rabbitmq-mcp-task-queue
 ```
 
 ## Requirements
