@@ -1,0 +1,10 @@
+[project]
+name = "test-rmq-queue"
+version = "0.1.0"
+description = "Test for mcp-task-rmq-queue package"
+requires-python = ">=3.11"
+dependencies = [
+    "rabbitmq-mcp-task-queue",
+    "mcp[cli]>=1.25.0",
+    "redis>=7.1.0",
+]
